@@ -85,12 +85,16 @@
 
 .about_contents {
     padding: 6em 0;
-    margin: 3em 0 0;
+    margin: 3em auto 0;
     background-color: #fff;
     border-radius: 1em;
+    width: clamp(330px,96%,900px);
+    
     @media screen and (max-width:767px) {
         padding: 3em 0;
-        margin: 2em 0 0; 
+        margin: 2em auto 0;
+        width: clamp(330px,96%,900px);
+
     }
     
     h3 {

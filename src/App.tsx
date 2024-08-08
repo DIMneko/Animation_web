@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-    <main className='w-full h-screen bg-slate-800'>
+    <main className='w-full bg-slate-800'>
 
     <Routes>
         <Route path="/" element={<HomePage />}/>
